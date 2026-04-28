@@ -1,0 +1,6 @@
+page,frame_idx,t_sec,raw_score,norm_score,peak_score,hand,hand_text_overlap,bottom_hand,blur,text,page_side_mode,trim_applied,trim_skip_reason,seam_side,seam_confidence,trim_fraction,shrink,dhash_similarity,orig_w,orig_h,final_w,final_h,bottom_trim_px,cleanup_applied,cleanup_mask_ratio,cleanup_reason,enhance_mode,deskew_angle_final,smart_trim
+1,0,0.000,1.71297,0.19855,0.14466,0.12306,0.97741,0.59350,87.30,0.03913,auto-smart,0,low-conf,,0.000,,,,1249,1800,1249,1800,0,0,0.0000,implausible-strict,standard,-2.980,skip(low-conf)
+2,100,3.333,3.72717,0.55053,0.39881,0.22896,0.57212,1.00000,90.17,0.01280,auto-smart,1,,right,1.000,0.099,0.0987,0.754,1264,1800,1161,1775,25,0,0.1015,implausible-strict,sparse,0.000,"auto-smart-trim-right(t=0.10,c=1.00,shrink=0.099,sim=0.75)"
+3,200,6.667,6.30730,1.00000,0.84361,0.11655,0.73616,0.41753,1060.20,0.08126,auto-smart,0,low-conf,,0.000,,,,1187,1800,1187,1781,19,0,0.0989,implausible-strict,standard,-1.002,skip(low-conf)
+4,310,10.333,7.59133,1.00000,0.87101,0.10350,0.48725,0.71440,608.43,0.08417,auto-smart,0,low-conf,,0.000,,,,1234,1800,1234,1800,0,1,0.0006,applied,sparse,-0.976,skip(low-conf)
+5,410,13.667,4.27294,0.64591,0.50846,0.16288,0.83197,0.83450,146.33,0.04169,auto-smart,0,low-conf,,0.000,,,,1219,1800,1219,1760,40,0,0.1437,implausible-strict,decorative,1.859,skip(low-conf)
