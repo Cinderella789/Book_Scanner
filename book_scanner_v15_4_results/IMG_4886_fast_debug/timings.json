@@ -1,0 +1,71 @@
+{
+  "video": "/home/user/workspace/Book_Scanner/IMG_4886.MOV",
+  "mode": "debug",
+  "audit_candidates": false,
+  "reselection_top_k": 6,
+  "max_alternatives_per_winner": 8,
+  "expected_pages": 0,
+  "sample_fps": 2.0,
+  "fast_prefilter": true,
+  "prefilter_long_side": 512,
+  "prefilter_top_k": 0,
+  "prefilter_keep_ratio": 0.45,
+  "prefilter_neighborhood": 1,
+  "prefilter_kept": 29,
+  "prefilter_sampled_total": 41,
+  "prefilter_slot_retention": true,
+  "prefilter_slot_factor": 2,
+  "prefilter_per_slot_top_k": 2,
+  "prefilter_peak_radius": 2,
+  "prefilter_diagnostics": {
+    "n_sampled": 41,
+    "expected_pages": 0,
+    "global_top_k": 18,
+    "slot_retention_enabled": false,
+    "slots": [],
+    "local_peak_count": 0,
+    "neighbor_added": 11,
+    "global_kept": 18,
+    "final_kept": 29
+  },
+  "fast_quality_fallback_enabled": true,
+  "fast_quality_fallback_applied": false,
+  "fast_quality_fallback_reason": "",
+  "fast_quality_fallback_added_frames": [],
+  "full_calibration": false,
+  "calibration_source": "prefilter",
+  "max_cached_frames": 80,
+  "raw_frame_cache_size": 29,
+  "quality_refinement_enabled": true,
+  "quality_refine_window_sec": 2.5,
+  "quality_refine_top_k": 6,
+  "quality_refine_min_improvement": 0.12,
+  "quality_refinement_summary": {
+    "suspicious_count": 8,
+    "applied_count": 1,
+    "extra_decoded_frames": [],
+    "replacements": [
+      {
+        "original_frame": 30,
+        "replacement_frame": 15,
+        "score_delta": 0.14885359272486742,
+        "reason": "replaced(reasons=hand_text=1.00,bottom_hand=1.00,turn=0.63;delta=+0.149;checked=4)",
+        "suspicious_reasons": "hand_text=1.00,bottom_hand=1.00,turn=0.63"
+      }
+    ]
+  },
+  "stages": {
+    "prefilter": 10.306449657000485,
+    "calibration": 0.007860993995564058,
+    "decode_candidates": 10.137270556995645,
+    "parallel_full_process": 14.704633882996859,
+    "full_process_candidates": 24.846873086004052,
+    "score_normalize": 0.0016306609904859215,
+    "peaks_and_clusters": 0.0108626380097121,
+    "reselection": 2.08600249607116e-06,
+    "auto_dedup_default": 0.18595019399072044,
+    "quality_refinement": 0.8550293890002649,
+    "smart_trim": 0.2913768739963416,
+    "postprocess_save": 2.923092312004883
+  }
+}
