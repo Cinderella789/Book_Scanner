@@ -1,0 +1,162 @@
+{
+  "video": "/home/user/workspace/Book_Scanner-af9f6612/IMG_4883.MOV",
+  "mode": "debug",
+  "audit_candidates": false,
+  "reselection_top_k": 6,
+  "max_alternatives_per_winner": 8,
+  "expected_pages": 5,
+  "sample_fps": 2.0,
+  "fast_prefilter": true,
+  "prefilter_long_side": 512,
+  "prefilter_top_k": 0,
+  "prefilter_keep_ratio": 0.45,
+  "prefilter_neighborhood": 1,
+  "prefilter_kept": 29,
+  "prefilter_sampled_total": 29,
+  "prefilter_slot_retention": true,
+  "prefilter_slot_factor": 2,
+  "prefilter_per_slot_top_k": 2,
+  "prefilter_peak_radius": 2,
+  "prefilter_diagnostics": {
+    "n_sampled": 29,
+    "expected_pages": 5,
+    "global_top_k": 13,
+    "slot_retention_enabled": true,
+    "slots": [
+      {
+        "slot": 0,
+        "count": 3,
+        "kept": 2,
+        "added_by_slot": 0,
+        "t0": 0.0,
+        "t1": 1.0
+      },
+      {
+        "slot": 1,
+        "count": 3,
+        "kept": 2,
+        "added_by_slot": 2,
+        "t0": 1.5,
+        "t1": 2.5
+      },
+      {
+        "slot": 2,
+        "count": 3,
+        "kept": 2,
+        "added_by_slot": 2,
+        "t0": 3.0,
+        "t1": 4.0
+      },
+      {
+        "slot": 3,
+        "count": 3,
+        "kept": 2,
+        "added_by_slot": 2,
+        "t0": 4.5,
+        "t1": 5.5
+      },
+      {
+        "slot": 4,
+        "count": 3,
+        "kept": 2,
+        "added_by_slot": 0,
+        "t0": 6.0,
+        "t1": 7.0
+      },
+      {
+        "slot": 5,
+        "count": 3,
+        "kept": 2,
+        "added_by_slot": 0,
+        "t0": 7.5,
+        "t1": 8.5
+      },
+      {
+        "slot": 6,
+        "count": 3,
+        "kept": 2,
+        "added_by_slot": 1,
+        "t0": 9.0,
+        "t1": 10.0
+      },
+      {
+        "slot": 7,
+        "count": 3,
+        "kept": 2,
+        "added_by_slot": 0,
+        "t0": 10.5,
+        "t1": 11.5
+      },
+      {
+        "slot": 8,
+        "count": 3,
+        "kept": 2,
+        "added_by_slot": 2,
+        "t0": 12.0,
+        "t1": 13.0
+      },
+      {
+        "slot": 9,
+        "count": 2,
+        "kept": 2,
+        "added_by_slot": 2,
+        "t0": 13.5,
+        "t1": 14.0
+      }
+    ],
+    "local_peak_count": 3,
+    "neighbor_added": 5,
+    "global_kept": 13,
+    "final_kept": 29
+  },
+  "fast_quality_fallback_enabled": true,
+  "fast_quality_fallback_applied": false,
+  "fast_quality_fallback_reason": "",
+  "fast_quality_fallback_added_frames": [],
+  "full_calibration": false,
+  "calibration_source": "prefilter",
+  "max_cached_frames": 80,
+  "raw_frame_cache_size": 29,
+  "quality_refinement_enabled": true,
+  "quality_refine_window_sec": 2.5,
+  "quality_refine_top_k": 6,
+  "quality_refine_min_improvement": 0.12,
+  "quality_refinement_summary": {
+    "suspicious_count": 5,
+    "applied_count": 0,
+    "extra_decoded_frames": [],
+    "replacements": []
+  },
+  "v155_adjacent_dedup_enabled": true,
+  "v155_adj_dedup_window_sec": 3.0,
+  "v155_adjacent_dedup_summary": {
+    "enabled": false,
+    "pairs_checked": 0,
+    "pairs_merged": 0,
+    "merges": []
+  },
+  "v156_footer_guard_enabled": true,
+  "v156_footer_band_frac": 0.09,
+  "v156_footer_center_frac": 0.6,
+  "v156_footer_side_trim_frac": 0.08,
+  "v156_footer_col_corr_max": 0.7,
+  "v156_footer_row_corr_max": 0.7,
+  "v156_footer_ink_delta_min": 0.12,
+  "v156_footer_ham_min": 14,
+  "v156_footer_min_ink": 0.012,
+  "v156_footer_guard_blocks": 0,
+  "v156_footer_guard_block_pairs": [],
+  "stages": {
+    "prefilter": 7.8267901219951455,
+    "calibration": 0.007989457997609861,
+    "decode_candidates": 7.447637688004761,
+    "parallel_full_process": 10.173661160995835,
+    "full_process_candidates": 17.62635139399208,
+    "score_normalize": 0.0020993149955756962,
+    "peaks_and_clusters": 0.040513296000426635,
+    "reselection": 2.058270937006455,
+    "quality_refinement": 0.301377630996285,
+    "smart_trim": 0.1746049859939376,
+    "postprocess_save": 1.8721041130047524
+  }
+}

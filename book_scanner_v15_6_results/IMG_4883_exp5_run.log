@@ -1,0 +1,17 @@
+[v15.3] prefilter: kept 29/29 sampled frames (100%) for full processing (global=13, slots=10, peaks=3, +nbr=5)
+[v15.1] Adaptive calibration (prefilter): applied ['sim_thresh_merge']
+[v15.2] candidates: 29 retrieved (decode), 392 demuxer-only grabs (no pixel decode); mode=parallel, workers=2, processed=29
+[v15.2] parallel_full_process: 10.174s (~350.8 ms/cand wallclock; ideal speedup ~2x)
+[v14.0] Adaptive post-calibration: min_norm_score 0.280 -> 0.260
+[v14.0] expected-pages reselection: removed=[135, 255] added=[0, 60]
+[v13.5]   frame 60: cleaner_equivalent_v135(orig=135,new=60,dirty=1)
+[v13.5]   frame 195: cleaner_equivalent_v135(orig=255,new=195,dirty=1)
+[v13.5]   frame 0: first_page_rescue(t=1.50s,gap=4.50s,replaced=195)|first_page_earliest(orig=45,new=0)
+[v14.0] alt-search: skipped (high_hand_mode off — production-stable selection)
+[v14.2a] auto-dedup: skipped (--expected-pages set)
+[v15.4] quality refinement: 5 suspicious winner(s), 28 candidates examined, 14 same-page, 0 replacement(s)
+[v15.5] adjacent-dedup: skipped (--expected-pages set)
+[v15.1] smart_trim cache: 5 hits, 0 misses (fallback decode)
+Debug files: /tmp/v15_6_pkg/IMG_4883_exp5_debug
+Saved 5 unique pages to: /tmp/v15_6_pkg/IMG_4883_exp5
+Valid warped candidates: 29, peak winners before clustering: 8, clusters: 5

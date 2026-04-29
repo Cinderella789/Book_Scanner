@@ -1,0 +1,18 @@
+[v15.1] prefilter: kept 29/41 sampled frames (71%) for full processing
+[v15.1] Adaptive calibration (prefilter): no overrides (within v13.0/v12.9 defaults)
+[v15.2] candidates: 29 retrieved (decode), 572 demuxer-only grabs (no pixel decode); mode=parallel, workers=2, processed=29
+[v15.2] parallel_full_process: 14.501s (~500.0 ms/cand wallclock; ideal speedup ~2x)
+[v15.3] fast quality fallback: reasons=default_gap_fill=1, decoded 7 extra frames, winners changed: [30, 120, 210, 390, 420, 480, 510, 585] -> [30, 120, 210, 270, 390, 420, 480, 510, 585]
+[v14.0] alt-search: skipped (high_hand_mode off — production-stable selection)
+[v14.2a] auto-dedup: no adjacent winners merged (conservative gate held)
+[v15.4] quality refinement: 9 suspicious winner(s), 43 candidates examined, 32 same-page, 2 replacement(s)
+[v15.4]   frame 30 -> 15: replaced(reasons=hand_text=1.00,bottom_hand=1.00,turn=0.63;delta=+0.149;checked=4)
+[v15.4]   frame 510 -> 570: replaced(reasons=hand_text=0.96,bottom_hand=1.00;delta=+0.181;checked=4)
+[v15.5] adjacent-dedup: removed winner frames [420, 570] (checked 4 pair(s), merged 2)
+[v15.5]   keep frame 390 over frame 420: rescan(dt=1.00s,sim=0.25,prof=0.16,warp=0.68,text_rel=0.24) (dt=1.00s, delta_q=+0.693)
+[v15.5]   keep frame 585 over frame 570: rescan(dt=0.50s,sim=0.10,prof=0.91,warp=0.68,text_rel=0.11) (dt=0.50s, delta_q=+1.448)
+[v15.6] footer-guard: no blocks (guard active on 4 pair(s))
+[v15.1] smart_trim cache: 6 hits, 1 misses (fallback decode)
+Debug files: /tmp/v15_6_pkg/IMG_4886_debug
+Saved 7 unique pages to: /tmp/v15_6_pkg/IMG_4886
+Valid warped candidates: 36, peak winners before clustering: 8, clusters: 8
