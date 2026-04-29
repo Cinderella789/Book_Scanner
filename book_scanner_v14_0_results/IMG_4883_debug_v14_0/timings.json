@@ -1,0 +1,18 @@
+{
+  "video": "/home/user/workspace/Book_Scanner/IMG_4883.MOV",
+  "mode": "debug",
+  "audit_candidates": false,
+  "reselection_top_k": 6,
+  "max_alternatives_per_winner": 8,
+  "expected_pages": 5,
+  "sample_fps": 2.0,
+  "stages": {
+    "calibration": 7.620766457999707,
+    "sample_detect_warp_score": 39.19434154199553,
+    "score_normalize": 0.0018044899989035912,
+    "peaks_and_clusters": 0.04303561700362479,
+    "reselection": 1.832172050999361,
+    "smart_trim": 3.7440826970050693,
+    "postprocess_save": 1.8274782599983155
+  }
+}
