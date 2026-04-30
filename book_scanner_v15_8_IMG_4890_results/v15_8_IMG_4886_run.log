@@ -1,0 +1,34 @@
+[v15.1] prefilter: kept 29/41 sampled frames (71%) for full processing
+[v15.1] Adaptive calibration (prefilter): no overrides (within v13.0/v12.9 defaults)
+[v15.2] candidates: 29 retrieved (decode), 572 demuxer-only grabs (no pixel decode); mode=parallel, workers=2, processed=29
+[v15.2] parallel_full_process: 13.917s (~479.9 ms/cand wallclock; ideal speedup ~2x)
+[v15.3] fast quality fallback: reasons=default_gap_fill=1, decoded 7 extra frames, winners changed: [30, 120, 210, 390, 420, 480, 510, 585] -> [30, 120, 210, 270, 390, 420, 480, 510, 585]
+[v14.0] alt-search: skipped (high_hand_mode off — production-stable selection)
+[v14.2a] auto-dedup: no adjacent winners merged (conservative gate held)
+[v15.4] quality refinement: 9 suspicious winner(s), 36 candidates examined, 30 same-page, 1 replacement(s)
+[v15.4]   frame 30 -> 15: replaced(reasons=hand_text=1.00,bottom_hand=1.00,turn=0.63;delta=+0.149;checked=4)
+[v15.8] finger-relief: 1 finger-suspicious winner(s), 2 candidates examined, 2 strict same-page, 0 replacement(s)
+[v15.5] adjacent-dedup: removed winner frames [420, 480] (checked 5 pair(s), merged 2)
+[v15.5]   keep frame 390 over frame 420: rescan(dt=1.00s,sim=0.25,prof=0.16,warp=0.68,text_rel=0.24) (dt=1.00s, delta_q=+0.746)
+[v15.5]   keep frame 510 over frame 480: rescan(dt=1.00s,sim=0.08,prof=0.44,warp=0.55,text_rel=0.15) (dt=1.00s, delta_q=+0.510)
+[v15.6] footer-guard: no blocks (guard active on 5 pair(s))
+[v15.1] smart_trim cache: 6 hits, 1 misses (fallback decode)
+Debug files: v15_8_IMG_4886_debug
+Saved 7 unique pages to: v15_8_IMG_4886
+Valid warped candidates: 36, peak winners before clustering: 8, clusters: 8
+[v14.0] stage timings (seconds):
+  prefilter                 10.733s ( 21.1%)
+  calibration                0.008s (  0.0%)
+  decode_candidates          9.568s ( 18.8%)
+  parallel_full_process     13.917s ( 27.3%)
+  full_process_candidates   23.491s ( 46.1%)
+  score_normalize            0.002s (  0.0%)
+  peaks_and_clusters         0.011s (  0.0%)
+  reselection                0.000s (  0.0%)
+  auto_dedup_default         0.228s (  0.4%)
+  quality_refinement         1.184s (  2.3%)
+  v158_finger_relief         0.015s (  0.0%)
+  v155_adjacent_dedup        0.064s (  0.1%)
+  smart_trim                 2.647s (  5.2%)
+  postprocess_save           2.584s (  5.1%)
+  total                     50.979s
