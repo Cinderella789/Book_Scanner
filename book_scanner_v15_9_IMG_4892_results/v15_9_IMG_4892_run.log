@@ -1,0 +1,16 @@
+[v15.1] prefilter: kept 29/38 sampled frames (76%) for full processing
+[v15.1] Adaptive calibration (prefilter): applied ['sim_thresh_merge']
+[v15.2] candidates: 29 retrieved (decode), 527 demuxer-only grabs (no pixel decode); mode=parallel, workers=2, processed=29
+[v15.2] parallel_full_process: 34.780s (~1199.3 ms/cand wallclock; ideal speedup ~2x)
+[v14.0] Adaptive post-calibration: min_norm_score 0.280 -> 0.260
+[v14.0] alt-search: skipped (high_hand_mode off — production-stable selection)
+[v14.2a] auto-dedup: no adjacent winners merged (conservative gate held)
+[v15.4] quality refinement: 6 suspicious winner(s), 26 candidates examined, 16 same-page, 1 replacement(s)
+[v15.4]   frame 330 -> 345: replaced(reasons=hand_text=0.39,skew=4.00;delta=+0.230;checked=4)
+[v15.8] finger-relief: 2 finger-suspicious winner(s), 12 candidates examined, 8 strict same-page, 0 replacement(s)
+[v15.5] adjacent-dedup: no merges (checked 2 pair(s))
+[v15.6] footer-guard: no blocks (guard active on 2 pair(s))
+[v15.1] smart_trim cache: 6 hits, 0 misses (fallback decode)
+Debug files: /home/user/workspace/v15_9_IMG_4892_debug
+Saved 6 unique pages to: /home/user/workspace/v15_9_IMG_4892
+Valid warped candidates: 29, peak winners before clustering: 6, clusters: 6
