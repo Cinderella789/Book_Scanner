@@ -1,0 +1,31 @@
+[v15.1] prefilter: kept 26/39 sampled frames (67%) for full processing
+[v15.1] Adaptive calibration (prefilter): applied ['sim_thresh_merge']
+[v15.2] candidates: 26 retrieved (decode), 545 demuxer-only grabs (no pixel decode); mode=parallel, workers=2, processed=26
+[v15.2] parallel_full_process: 13.584s (~522.5 ms/cand wallclock; ideal speedup ~2x)
+[v14.0] alt-search: skipped (high_hand_mode off — production-stable selection)
+[v14.2a] auto-dedup: no adjacent winners merged (conservative gate held)
+[v15.4] quality refinement: 7 suspicious winner(s), 26 candidates examined, 14 same-page, 0 replacement(s)
+[v15.8] finger-relief: 0 finger-suspicious winner(s), 0 candidates examined, 0 strict same-page, 0 replacement(s)
+[v15.5] adjacent-dedup: removed winner frames [210] (checked 5 pair(s), merged 1)
+[v15.5]   keep frame 240 over frame 210: rescan(dt=1.00s,sim=0.31,prof=0.75,warp=1.00,text_rel=0.05) (dt=1.00s, delta_q=+0.335)
+[v15.6] footer-guard: no blocks (guard active on 5 pair(s))
+[v15.1] smart_trim cache: 6 hits, 0 misses (fallback decode)
+Debug files: /home/user/workspace/v15_11_IMG_4921_debug
+Saved 6 unique pages to: /home/user/workspace/v15_11_IMG_4921
+Valid warped candidates: 26, peak winners before clustering: 7, clusters: 7
+[v14.0] stage timings (seconds):
+  prefilter                 18.258s ( 37.9%)
+  calibration                0.008s (  0.0%)
+  decode_candidates         13.240s ( 27.5%)
+  parallel_full_process     13.584s ( 28.2%)
+  full_process_candidates   26.829s ( 55.6%)
+  score_normalize            0.002s (  0.0%)
+  peaks_and_clusters         0.009s (  0.0%)
+  reselection                0.000s (  0.0%)
+  auto_dedup_default         0.031s (  0.1%)
+  quality_refinement         0.724s (  1.5%)
+  v158_finger_relief         0.000s (  0.0%)
+  v155_adjacent_dedup        0.016s (  0.0%)
+  smart_trim                 0.033s (  0.1%)
+  postprocess_save           2.278s (  4.7%)
+  total                     48.221s
